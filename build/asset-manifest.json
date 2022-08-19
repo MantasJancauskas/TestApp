@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.431ce93f.css",
+    "main.js": "/static/js/main.d5f17fb0.js",
+    "static/media/3HeZ.gif": "/static/media/3HeZ.3fee58edfc8725f8d14d.gif",
+    "static/media/Halloween-Mandala-Black-Cat-Moon-01837-500x500.png": "/static/media/Halloween-Mandala-Black-Cat-Moon-01837-500x500.be7639a039fc1e238149.png",
+    "index.html": "/index.html",
+    "main.431ce93f.css.map": "/static/css/main.431ce93f.css.map",
+    "main.d5f17fb0.js.map": "/static/js/main.d5f17fb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.431ce93f.css",
+    "static/js/main.d5f17fb0.js"
+  ]
+}
