@@ -1,7 +1,5 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
 import { useState} from 'react';
-// import Container from 'react-bootstrap/Container';
 import './Calculator.css';
 import Button from 'react-bootstrap/Button';
 import Stack from 'react-bootstrap/Stack';
@@ -86,9 +84,5 @@ function Calculator()  {
     </>
   );
 };
-
-// Calculator.propTypes = {};
-
-// Calculator.defaultProps = {};
 
 export default Calculator;
