@@ -53,6 +53,26 @@ function Navbar() {
                 Calculator
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/todolistv2"
+              >
+                Todolistv2
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+                to="/todolistv3"
+              >
+                Todolistv3
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
