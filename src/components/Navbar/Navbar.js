@@ -3,7 +3,6 @@ import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 import cat from "../../images/Halloween-Mandala-Black-Cat-Moon-01837-500x500.png";
 
-
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-light newColor ">

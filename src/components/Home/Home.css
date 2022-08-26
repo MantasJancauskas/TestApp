@@ -1,6 +1,6 @@
 .Home {
-    height: 100vh;
-    background-image: url('https://img.freepik.com/free-vector/bonfire-dark-ice-cave-with-snow-frozen-water-icy-crystals_107791-3362.jpg?w=826&t=st=1661421531~exp=1661422131~hmac=e07c0c7830859abce2897e2df44e5f4cd79b6e7f94ff8b3d24df6153f0fe682d');
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/bonfire-dark-ice-cave-with-snow-frozen-water-icy-crystals_107791-3362.jpg?w=826&t=st=1661421531~exp=1661422131~hmac=e07c0c7830859abce2897e2df44e5f4cd79b6e7f94ff8b3d24df6153f0fe682d");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

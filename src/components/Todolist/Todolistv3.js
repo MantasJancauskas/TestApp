@@ -5,14 +5,13 @@ import EditForm from "./EditForm";
 // import "./styles.css";
 
 let App1 = {
-    minHeight: "100vh",
-    margin: "10px",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    flexDirection: "column",
-}
-
+  minHeight: "100vh",
+  margin: "10px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
+  flexDirection: "column",
+};
 
 export default function Todov3() {
   const [todos, setTodos] = useState(() => {
@@ -48,8 +47,8 @@ export default function Todov3() {
         ...todos,
         {
           id: new Date(),
-          text: todo.trim()
-        }
+          text: todo.trim(),
+        },
       ]);
     }
 
@@ -83,7 +82,7 @@ export default function Todov3() {
   }
 
   return (
-    <div className="App align-items-center " style={App1} >
+    <div className="App align-items-center " style={App1}>
       {isEditing ? (
         <EditForm
           currentTodo={currentTodo}
@@ -99,7 +98,7 @@ export default function Todov3() {
         />
       )}
 
-      <ul className="todo-list" style={{listStyle: "none", textAlign: "end"}}>
+      <ul className="todo-list" style={{ listStyle: "none", textAlign: "end" }}>
         {todos.map((todo) => (
           <TodoItem
             todo={todo}
