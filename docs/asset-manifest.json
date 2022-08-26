@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/TestApp/static/css/main.929994d2.css",
-    "main.js": "/TestApp/static/js/main.f7158c56.js",
+    "main.js": "/TestApp/static/js/main.e2754302.js",
     "static/media/3HeZ.gif": "/TestApp/static/media/3HeZ.3fee58edfc8725f8d14d.gif",
     "static/media/Halloween-Mandala-Black-Cat-Moon-01837-500x500.png": "/TestApp/static/media/Halloween-Mandala-Black-Cat-Moon-01837-500x500.be7639a039fc1e238149.png",
     "static/media/404-error.jpg": "/TestApp/static/media/404-error.84f20bb6a9d21af80cd9.jpg",
     "index.html": "/TestApp/index.html",
     "main.929994d2.css.map": "/TestApp/static/css/main.929994d2.css.map",
-    "main.f7158c56.js.map": "/TestApp/static/js/main.f7158c56.js.map"
+    "main.e2754302.js.map": "/TestApp/static/js/main.e2754302.js.map"
   },
   "entrypoints": [
     "static/css/main.929994d2.css",
-    "static/js/main.f7158c56.js"
+    "static/js/main.e2754302.js"
   ]
 }

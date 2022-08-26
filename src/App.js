@@ -1,6 +1,6 @@
 import "./App.css";
 import Calculator from "./components/Calculator/Calculator";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Home from "./components/Home/Home";
@@ -11,7 +11,7 @@ import Image4 from "./images/404-error.jpg";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
@@ -35,7 +35,7 @@ function App() {
         />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
