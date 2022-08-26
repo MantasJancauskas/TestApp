@@ -7,6 +7,8 @@ import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import SequentialStateUpdates from './components/Todolist/Todolistv2';
 import Todov3 from './components/Todolist/Todolistv3';
+import Image4 from './images/404-error.jpg';
+
 
 
 function App() {
@@ -21,8 +23,9 @@ function App() {
         <Route path="/todolistv3" element={<Todov3 />} />
         <Route path="*"
                     element={
-                        <main style={{ padding: "1rem", minHeight: "100vh"}}>
-                            <p>There's nothing here!</p>
+                        <main style={{ padding: "1rem", minHeight: "100vh", backgroundImage: `url(${Image4})`, backgroundRepeat: "no-repeat", backgroundPosition: "center"
+                      }}>
+                            
                         </main>
                     }
                 />

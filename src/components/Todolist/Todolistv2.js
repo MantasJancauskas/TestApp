@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 
 let flexContainer = {
   minHeight: "100vh",
-  margin: "10px",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
@@ -29,7 +28,7 @@ const SequentialStateUpdates = () => {
   useEffect(() => {
     localStorage.setItem("items", JSON.stringify(items));
   }, [items]);
- 
+
   const deleteItem = (index) => {
     let filteredItems = items.filter((_, idx) => idx !== index);
     setItems(filteredItems);
@@ -46,21 +45,42 @@ const SequentialStateUpdates = () => {
       setNewItem({ name: "" });
     }
   };
-  
+
   return (
     <div style={flexContainer}>
-      <div className="card w-25 text-bg-light">
+      <div className="card text-bg-light col-sm-9 col-md-3">
         <div className="card-body">
           <h1 className="card-title">Items</h1>
           <div className="row p-3">
-            <input id="input" type="text" className="form-control" style={customW65}  ref={itemInput} onChange={handleInput} />
-            <button className="btn btn-secondary" style={customW35} onClick={handleClick}>Click me</button>
+            <input
+              id="input"
+              type="text"
+              className="form-control"
+              style={customW65}
+              ref={itemInput}
+              onChange={handleInput}
+            />
+            <button
+              className="btn btn-secondary"
+              style={customW35}
+              onClick={handleClick}
+            >
+              Click me
+            </button>
           </div>
           <ul className="list-group">
             {items.length > 0 ? (
               items.map((item, idx) => (
-                <li key={idx} className="list-group-item">{item.name}
-                  <button onClick={() => { deleteItem(idx); }} className="btn btn-warning float-end">Delete</button>
+                <li key={idx} className="list-group-item">
+                  {item.name}
+                  <button
+                    onClick={() => {
+                      deleteItem(idx);
+                    }}
+                    className="btn btn-warning float-end"
+                  >
+                    Delete
+                  </button>
                 </li>
               ))
             ) : (

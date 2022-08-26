@@ -3,15 +3,16 @@ import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 import cat from "../../images/Halloween-Mandala-Black-Cat-Moon-01837-500x500.png";
 
+
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light newColor ">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">
+        <Link className="navbar-brand " to="/">
           <img src={cat} alt="cat" className="Cat" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler link-light text-light bg-light"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -23,10 +24,10 @@ function Navbar() {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
+            <li className="nav-item ">
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive ? "nav-link active" : "nav-link link-light"
                 }
                 to="/home"
               >
@@ -36,7 +37,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive ? "nav-link active" : "nav-link link-light"
                 }
                 to="/about"
               >
@@ -46,7 +47,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive ? "nav-link active" : "nav-link link-light"
                 }
                 to="/calculator"
               >
@@ -56,7 +57,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive ? "nav-link active" : "nav-link link-light"
                 }
                 to="/todolistv2"
               >
@@ -66,7 +67,7 @@ function Navbar() {
             <li className="nav-item">
               <NavLink
                 className={({ isActive }) =>
-                  isActive ? "nav-link active" : "nav-link"
+                  isActive ? "nav-link active" : "nav-link link-light"
                 }
                 to="/todolistv3"
               >
