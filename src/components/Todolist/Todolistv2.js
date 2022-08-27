@@ -15,8 +15,17 @@ let customW35 = {
 
 const SequentialStateUpdates = () => {
   const [newItem, setNewItem] = useState({});
-  const [items, setItems] = useState([]);
+  // const [items, setItems] = useState([]);
   const itemInput = useRef(null);
+  const [items, setItems] = useState(() => {
+    const savedItems = localStorage.getItem("items");
+    if (savedItems) {
+      return JSON.parse(savedItems);
+    } else {
+      return [];
+    }
+  });
+  
 
   useEffect(() => {
     const lsItems = localStorage.getItem("items");

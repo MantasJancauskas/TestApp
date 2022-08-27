@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import SequentialStateUpdates from "./components/Todolist/Todolistv2";
 import Todov3 from "./components/Todolist/Todolistv3";
 import Image4 from "./images/404-error.jpg";
+import PassGenz from "./components/PassGenz/PassGenz";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/todolistv2" element={<SequentialStateUpdates />} />
         <Route path="/todolistv3" element={<Todov3 />} />
+        <Route path="/passgenz" element={<PassGenz />} />
         <Route
           path="*"
           element={

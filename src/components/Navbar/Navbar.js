@@ -73,6 +73,16 @@ function Navbar() {
                 Todolistv3
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link link-light"
+                }
+                to="/passgenz"
+              >
+                PassGenz
+              </NavLink>
+            </li>
           </ul>
         </div>
       </div>
